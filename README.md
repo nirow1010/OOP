@@ -1,2 +1,0 @@
-# OOP
-JAVA Concepts: Object
