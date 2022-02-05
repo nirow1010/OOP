@@ -108,7 +108,7 @@ JAVA Concepts: Object
         2. 매개변수의 개수 또는 타입이 달라야 한다 <br />
         3. 반환 타입은 영향없다 <br />
 - 매개변수에 자동형변환으로 입력이 가능할시 중복이 될 수 있다. <br />
-(예) long add(int a, long b) {} 와 long add(long a, int b) {}에다가 add(3,3)을 넣으면 애매모호해서 컴퓨터가 판단을 못함<br />
+&ensp;(예) long add(int a, long b) {} 와 long add(long a, int b) {}에다가 add(3,3)을 넣으면 애매모호해서 컴퓨터가 판단을 못함<br />
 
 <b><생성자></b> 
 - 인스턴스가 생성될 때마다 호출되는 ‘인스턴스 초기화 메서드’ <br />
@@ -179,7 +179,7 @@ JAVA Concepts: Object
 - Object 클래스란 모든 클래스의 최고 조상이다. <br />
 - 부모가 없는 클래스는 자동적으로 Object 클래스를 상속받게 된다. <br />
 - 모든 클래스는 Object 클래스에 정의된 11개의 메서드를 상속받는다.  <br />
-(예: toString(), equals(Object obj), hashCode(), …) <br />
+&ensp;(예: toString(), equals(Object obj), hashCode(), …) <br />
 - extends Object를 안써주면 컴파일러가 자동으로 추가해준다. <br />
 - Tv와 그 자손인 SmartTv가 있으면 상속 계층도는: Object → Tv → SmartTv이다. <br />
 - println(참조변수)시 컴파일러가 자동으로 println(참조변수.toString())으로 변환시킨다.  <br />
@@ -323,7 +323,7 @@ JAVA Concepts: Object
 - 인터페이스 타입 매개변수는 인터페이스 구현한 클래스의 객체만 가능 <br />
 - 인터페이스를 메서드의 리턴타입으로 지정할 수 있음 <br />
 - 인터페이스에 필요한 제어자와 접근제어자를 안 붙여줘도 컴파일러가 자동 추가해줌 <br />
-예: void move(); → public abstract void move();, int x; → public final int x; <br />
+&ensp;(예) void move(); → public abstract void move();, int x; → public final int x; <br />
 - 규칙: 조상(public)보다 접근제어자의 범위가 좁으면 안됨 <br />
         
 <b><인터페이스의 장점></b>  
